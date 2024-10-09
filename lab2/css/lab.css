@@ -4,6 +4,23 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #f0e09c;
+    background-color: #f0e09c;
+    margin-right: 200px;border-radius: 25px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
   }
+  #content{
+    background-color: maroon;
+  margin-bottom: 100%;}
+
+  body{
+    color:black;
+  }
+  
+div img{
+  opacity: 50%
+}
+
+}
