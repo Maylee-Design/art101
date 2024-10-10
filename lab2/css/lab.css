@@ -10,6 +10,7 @@
     padding: 20px;
     width: 400px;
     height: 200px;
+    font-family: 'Courier New', Courier, monospace;
   }
   #content{
     background-color: maroon;
@@ -19,8 +20,18 @@
     color:black;
   }
   
-div img{
-  opacity: 50%
-}
+#mycats { img size: 150px}
 
+.flexcontainer {
+  display: flex;
+  Background: maroon
 }
+.flexcontainer section {
+  background-color: #f0e09c
+  margin: 10px
+  padding: 20px
+}
+<div class="flex-container">
+  <div>#mycats </div>
+  <div>class="minor-section"</div>
+</div>
