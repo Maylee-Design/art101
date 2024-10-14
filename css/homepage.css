@@ -4,3 +4,15 @@
   margin: 10px;
   max-width: 500px;
 }
+
+#content{
+    background-color: maroon;
+   }
+#firstbox{
+  padding: 10px;
+    background-color: maroon;
+    font-family: 'Courier New', Courier, monospace;
+}
+#webtitle{
+  text-align: middle
+}

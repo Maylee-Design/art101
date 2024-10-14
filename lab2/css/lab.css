@@ -1,7 +1,7 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
+.minor-section1,.minor-section2,.minor-section3,.minor-section4 {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #f0e09c;
@@ -19,19 +19,25 @@
   body{
     color:black;
   }
-  
-#mycats { img size: 150px}
 
-.flexcontainer {
-  display: flex;
-  Background: maroon
+
+.grid{
+  display:flex
 }
-.flexcontainer section {
-  background-color: #f0e09c
-  margin: 10px
-  padding: 20px
+.mycats{
+  width: 300px
+  }
+.minor-section1{
+  order:1;
 }
-<div class="flex-container">
-  <div>#mycats </div>
-  <div>class="minor-section"</div>
-</div> 
+.mycats{
+  order: 2;
+}
+.minor-section2{
+  order:3;
+}
+.minor-selection3{
+  order: 4;
+}
+
+

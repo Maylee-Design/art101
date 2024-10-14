@@ -7,3 +7,25 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+
+
+.tabs {
+  display: flex;
+  border: solid;
+  padding: 100px;
+  justify-content: center;
+  margin: 20px;
+}
+.item1 {
+  order: 1;
+  border: solid;
+  padding: 100px;
+  margin: 20px;
+}
+.item2 {
+  order: 2; 
+  border: solid;
+  padding: 100px;
+  margin: 20px;
+}
