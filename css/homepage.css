@@ -1,26 +1,5 @@
 /* this css file will only style the homepage of our site */
 
-#content{
-  color: maroon;
-   }
-
-   #labtabs{
-    background-color: bisque;
-   }
-#firstbox{
-  padding: 10px;
-    background-color: bisque;
-    font-family: 'Courier New', Courier, monospace;
-}
-.webtitle{
-  background-color: maroon;
-}
-.minor-section{
-  background-color: bisque;
-}
-#webtitle{
-  text-align: middle
-}
 .lamontandnami {
   width: 500px;
 }

@@ -3,34 +3,39 @@
 /* you can pick your own background colors, text colors, and fonts */
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
-body {
-  background-color: #50808E;
-}
-
-/* we can have rules apply to multiple elements at the same time with commas */
-h1,h2,h3 {
-  font-family: sans-serif;
-}
-
-/* and we can have rules that overlap other rules, both take effect */
-h1 {
-  letter-spacing: 5px;
-  word-spacing: 5px;
-  font-size: 200%;
-}
-
-/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
-#content {
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px #888;
-  background-color: #84B59F;
-}
-
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
+.minor-section1,.minor-section2,.minor-section3,.minor-section4 {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #A3C9A8;
+  border: solid 1px #f0e09c;
+  background-color: #f0e09c;
+  margin-right: 200px;border-radius: 25px;
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 20px;
 }
+#content{
+  background-color: maroon;
+}
+
+body{
+  color:black;
+  margin: 0;
+  padding: 20px;
+  background-color: maroon;
+}
+
+.tabs{
+display: flex;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+}
+
+.item1,.item2,.item3,.item4,.item5

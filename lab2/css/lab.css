@@ -11,6 +11,7 @@
     width: 400px;
     height: 200px;
     font-family: 'Courier New', Courier, monospace;
+    margin-right: 20px;
   }
   #content{
     background-color: maroon;
@@ -18,26 +19,35 @@
 
   body{
     color:black;
+    margin: 0;
+    padding: 20px;
+    background-color: maroon;
   }
 
+.tabs{
+  display: flex;
+  flex-direction: row;
+}
 
-.grid{
-  display:flex
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #f0e09c;
+  background-color: #f0e09c;
+
+}
+
+.row1{
+  display: flex;
+}
+
+.row2{
+  display: flex;
 }
 .mycats{
-  width: 300px
+  width: 450px;
+  margin-right: 20px;margin-top: 10px;border-radius: 25px;
   }
-.minor-section1{
-  order:1;
-}
-.mycats{
-  order: 2;
-}
-.minor-section2{
-  order:3;
-}
-.minor-selection3{
-  order: 4;
-}
+
 
 
