@@ -38,4 +38,18 @@ padding-right: 0px;
 padding-top: 0px;
 }
 
-.item1,.item2,.item3,.item4,.item5
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8{
+padding: 10px;
+margin-bottom: 10px;
+border: solid 1px #f0e09c;
+background-color: #f0e09c;
+
+}
+
+.row1{
+display: flex;
+}
+
+.row2{
+display: flex;
+}
