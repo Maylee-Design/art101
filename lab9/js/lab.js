@@ -48,3 +48,7 @@ $(".button-results").click(function(){
 //     image.classList.add('class1')
 //   }
 // })
+
+$(".petme").click(function(){
+$("#petmee").attr("src","./img/udied.jpg")
+});
