@@ -28,6 +28,7 @@ body{
 
 .tabs{
 display: flex;
+horizontal-align: center 
 margin-bottom: 0px;
 margin-left: 0px;
 margin-right: 0px;
@@ -38,7 +39,7 @@ padding-right: 0px;
 padding-top: 0px;
 }
 
-.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8{
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9{
 padding: 10px;
 margin-bottom: 10px;
 border: solid 1px #f0e09c;

@@ -10,6 +10,24 @@
 
 
 
+#petmee{
+  width: 300px
+}
+
+.minor-section1-1{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #f0e09c;
+  background-color: #f0e09c;
+  margin-right: 200px;border-radius: 25px;
+  padding: 20px;
+  width: 400px;
+  height: 450px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 20px;
+}
+
+
 
 
 /* #petmee.class1 {background-image: src="./img/petme.jpg"; }
