@@ -1,0 +1,16 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.special {
+  background-color: lavender;
+  border: dotted 50px red;
+  color: rgb(252, 153, 169);
+  font-weight: bold;
+}
+
+
+
+
+
+/* #petmee.class1 {background-image: src="./img/petme.jpg"; }
+#udiedd.class2 {background-image: src="./img/crazylamont.jpg"; } */
