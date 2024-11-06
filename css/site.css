@@ -28,7 +28,7 @@ body{
 
 .tabs{
 display: flex;
-horizontal-align: center 
+horizontal-align: center ;
 margin-bottom: 0px;
 margin-left: 0px;
 margin-right: 0px;
