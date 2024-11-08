@@ -15,6 +15,7 @@
   font-family: 'Courier New', Courier, monospace;
   margin-right: 20px;
 }
+
 #content{
   background-color: maroon;
 }
@@ -39,7 +40,7 @@ padding-right: 0px;
 padding-top: 0px;
 }
 
-.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10{
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10,.item11{
 padding: 10px;
 margin-bottom: 10px;
 border: solid 1px #f0e09c;

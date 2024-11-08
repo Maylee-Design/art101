@@ -1,0 +1,62 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+#output {
+  background-color: white;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 15px;
+  border: solid 1px black;
+  min-height: 100px;
+}
+
+.minor-section4-10{
+  padding: 10px;
+  margin-bottom: 10px auto;
+  border: solid 1px #f0e09c;
+  background-color: #f0e09c;
+  margin-right: 200px;
+  border-radius: 25px;
+  padding: 20px;
+  width: 400px;
+  height: auto;
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+.text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: darkgray;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.8em;
+}
+
+.text:nth-child(all) {
+  text-align: left;
+}
+
+.text:nth-child(all) p {
+  background-color: rgb(233, 233, 233);
+  color: black;
+}
+
+/* .text:nth-child(odd) {
+  text-align: right;
+}
+
+.text:nth-child(odd) p {
+  background-color: #45ba59;
+  color: white;
+} */
+
