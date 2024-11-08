@@ -11,7 +11,7 @@
   margin-right: 200px;border-radius: 25px;
   padding: 20px;
   width: 400px;
-  height: 200px;
+  height: auto;
   font-family: 'Courier New', Courier, monospace;
   margin-right: 20px;
 }
