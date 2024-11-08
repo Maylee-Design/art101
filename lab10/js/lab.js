@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - lil cat chat
+// Author: Mason Hughes, Phinhas Asmelash
+// Date: nov 7 2024
 
 function generateRandomMeow() {
   const text = "meow mewo meow,mow meow mewo meow meow";
