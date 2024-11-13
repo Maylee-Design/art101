@@ -3,6 +3,40 @@
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 #mouse{
   width: 300px;
+  margin-top: 100px;
 }
 
+.leafcard{
+  transform: rotate(45deg);
+  /* position: absolute; */
+  /* clip: rect(20px, 40px, 20px, 70px); */
+}
 
+#output {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 220px;
+  height: 100px;
+  max-width: 120px;
+  margin-left: 100px;
+  word-wrap: break-word;
+  font-size: 20px;
+  color:bisque;
+  line-height: 90%;
+  font-weight: bold;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  font-family: 'Kalam', cursive;
+}
+
+.leafcard {
+  position: relative;
+  z-index: 1; /* Lower value */
+}
+
+#output {
+  position: relative;
+  z-index: 2; /* Higher value */
+}
