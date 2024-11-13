@@ -20,30 +20,46 @@ function anagram(inputString) {
  
   // Return the generated anagram
   return anagram;
- }
+}
+
  
- // given a string, return string in Title Case
- // credit to ChatGPT
- String.prototype.toTitleCase = function() {
-   return this.replace(/\w\S*/g, function(txt) {
-     return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-   });
- };
+// given a string, return string in Title Case
+// credit to ChatGPT
+String.prototype.toTitleCase = function() {
+  return this.replace(/\w\S*/g, function(txt) {
+    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+  });
+};
+
+
+// initilize counter variable 
+// save the user_name in a variable 
+// increment counter variable in the "submit event listener" 
+// if counter variable == 3, then display original name of the user
+//button counter
+
+
+
+let buttonCounter = 0;
+console.log (buttonCounter);
+// click listener for button
+$("#submit").click(function(){
+  // get value of input field
+  const userName = $("#user-name").val();
+  // now let's sort it
+  newName = anagram(userName).toTitleCase();
+  //output is user input on third submission
+  if (buttonCounter >= 2) {
+    $("#output").html('<div class="name-results">' + userName + '</div>');
+    // For the button counter to restart after presssing button 3 times
+    // buttonCounter = 0;
+  }
+  else {
+    $("#output").html('<div class="name-results">' + newName + '</div>');
+    //button counted
+    buttonCounter += 1;
+  }
+});
  
- // Sorts the characters of a string in alphabetical order.
- function sortString(inputString) {
-     // We have to convert our string to an array and back again to sort it
-     return inputString.split('').sort().join('');
- }
- 
- // click listener for button
- $("#submit").click(function(){
-     // get value of input field
-     const userName = $("#user-name").val();
-     // now let's sort it
-     newName = anagram(userName).toTitleCase();
-     // append a new div to our output div
-     $("#output").html('<div class="name-results">' + newName + '</div>');
- });
- 
+
 
