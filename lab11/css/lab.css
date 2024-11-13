@@ -7,7 +7,7 @@
 }
 
 .leafcard{
-  transform: rotate(45deg);
+  transform: rotate(45deg); 
   /* position: absolute; */
   /* clip: rect(20px, 40px, 20px, 70px); */
 }
