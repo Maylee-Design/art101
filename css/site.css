@@ -67,6 +67,6 @@ flex-direction: column; */
 
 /* test */
 
-#webtitile{
-  align-self: center;
+#webtitle{
+  text-align: center;
 }
