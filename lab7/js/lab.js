@@ -39,10 +39,10 @@ document.writeln("What do you think bout it now? " + nameTag() + "</br>")
   // return results;
 //}
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-  nameTag();
-}
+// function main() {
+//   console.log("Main function started.");
+//   // the code that makes everything happen
+//   nameTag();
+// }
 
-main();
+// main();

@@ -45,15 +45,28 @@ padding: 10px;
 margin-bottom: 10px;
 border: solid 1px #f0e09c;
 background-color: #f0e09c;
-
 }
 
-.row1{
-display: flex;
+
+#wrapper {
+  display: flex;
+  flex-direction: row; /* This is the default, but just to be explicit */
 }
 
-.row2{
-display: flex;
+#column1{
+  flex: 1;
+/* display: flex;
+flex-direction: column; */
+}
+
+#column2{
+  flex: 2;
+/* display: flex; 
+flex-direction: column; */
 }
 
 /* test */
+
+#webtitile{
+  align-self: center;
+}
