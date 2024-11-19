@@ -43,3 +43,6 @@ document.writeln("What do you think bout it now? " + nameTag() + "</br>")
 //   console.log("Main function started.");
 //   // the code that makes everything happen
 //   nameTag();
+// }
+
+// main();
