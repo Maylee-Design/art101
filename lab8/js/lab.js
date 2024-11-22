@@ -2,32 +2,32 @@
 // Author: Mason Hughes
 // Date: 10/31/24
 
+
+
 // Constants
-const someNumbers = [10, 42, 67, 300, 45]
+someNumbers = [10, 42, 67, 300, 45]
 
 
 // Functions
-function doSomeCalculations (number) {
-  var results = Math.sqrt(number)
+function doSomeCalculations (x) {
+  var results = Math.sqrt(x)
   return results;
   }
   
 
 // console log additions
-  someNumbers.map(function (x){
-    var results = x*3
+  console.log(someNumbers.map(function(number) {
+    var results = number * 3
     return results;
-})
+}));
 
-  var mapresults = someNumbers.map(doSomeCalculations);
-    console.log("results: ", mapresults)
+  var mapResults = someNumbers.map(doSomeCalculations);
 
-
-
+  console.log("results: ", mapResults)
 
 
 
-
+    
 
 
 
@@ -47,16 +47,3 @@ function doSomeCalculations (number) {
 
 
 
-/ this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
