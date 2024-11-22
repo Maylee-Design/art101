@@ -23,7 +23,7 @@ function doSomeCalculations (x) {
 
   var mapResults = someNumbers.map(doSomeCalculations);
 
-  console.log("results: ", mapResults)
+  console.log("results: ", mapResults)  
 
 
 
